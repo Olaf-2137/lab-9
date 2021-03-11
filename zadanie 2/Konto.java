@@ -1,7 +1,7 @@
 package sample;
 
 public class Konto {
-//dane konta
+    //dane konta
     private String KNazwa;
     private double Balans;
     public Konto(String Nazwa, double BalansKonta) {
@@ -9,15 +9,15 @@ public class Konto {
         this.Balans = BalansKonta;
     }
 
-  //wypłata
+    //wypłata
     public int withdraw(int amount) {
-        if (balance >= amount) {
-            balance -= amount;
+        if (Balans >= amount) {
+            Balans -= amount;
             return amount;
         }
         else{
             throw new wyplatacheck(amount);}}
-//wykaz balansu
+    //wykaz balansu
     public double getBalance() {
         return Balans;
     }
