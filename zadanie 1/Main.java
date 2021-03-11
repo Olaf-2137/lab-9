@@ -7,11 +7,11 @@ public class main {
       //scanery zmiennych imie nazwisko rok
         while (true) {
             Scanner scan = new Scanner(System.in);
-            System.out.println("Podaj imię");
+            System.out.println("Podaj swoje imię");
             String name = scan.nextLine();
-            System.out.println("Podaj nazwisko");
+            System.out.println("Podaj swoje nazwisko");
             String last_name = scan.nextLine();
-            System.out.println("Podaj rok urodzenia");
+            System.out.println("Podaj rok");
             int birth_year = scan.nextInt();
       //konto person
             try {
